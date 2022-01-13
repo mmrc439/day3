@@ -1,0 +1,28 @@
+s='  hAve a niCe DAy   '
+print(s)
+
+print(s.upper())
+print(s.lower())
+print(s.capitalize())
+print(s.title())
+print(s.swapcase())
+print(len(s))
+print(len(s.strip()))
+print(len(s.lstrip()))
+print(len(s.rstrip()))
+# print(s.replace('niCe', 'good'))
+print(s.upper().replace('NICE', 'good'))
+print(s.center(60))
+print(s.center(60,'='))
+print(s.find('day'))
+print(s.find('DAy'))
+print(s.find('niCe'))
+print(s.index('DAy'))
+print(s.count('A'))
+print(s.count('a'))
+print(s.lower().count('a'))
+print(s.split())
+
+
+print(type(s))
+print(dir(s))
